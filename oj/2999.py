@@ -1,0 +1,4 @@
+"""Frame"""
+
+x = str(input())
+
