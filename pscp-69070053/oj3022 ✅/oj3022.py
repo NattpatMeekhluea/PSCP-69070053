@@ -5,8 +5,8 @@ def main():
 
     #กำหนดตัวแปรและกำหนดcelให้เท่ากับ 0.0
     temperature = float(input())
-    s_unit = input()
-    t_unit = input()
+    s_unit = input().upper()
+    t_unit = input().upper()
 
     cel = 0.0
 
