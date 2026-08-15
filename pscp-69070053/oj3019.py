@@ -11,11 +11,11 @@ def save_password():
 
     if character_password ==  corect_char_password and number_password == corect_num_password:
         print("safe unlocked")
-    elif character_password == "h" or number_password == corect_num_password:
+    elif character_password != corect_char_password and number_password == corect_num_password:
         print("safe locked - change char")
-    elif character_password == corect_char_password:
+    elif character_password == corect_char_password and not number_password:
         print("safe locked - change digit")
     else:
         print("safe locked")
-        
+
 save_password()

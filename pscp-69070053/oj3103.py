@@ -3,10 +3,10 @@
 def main():
     """จำนวนสระ"""
 
-    text = int(input())
+    amount  = int(input())
     count = 0
 
-    for _ in range(text):
+    for _ in range(amount):
         vowel = input().upper()
         if vowel in "AEIOU":
             count += 1

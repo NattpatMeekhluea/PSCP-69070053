@@ -10,7 +10,7 @@ def passnotpass():
     if midterm_score + finalterm_score >= 50:
         print(result)
         print("pass")
-    elif midterm_score + finalterm_score <= 50:
+    elif midterm_score + finalterm_score < 50:
         print(result)
         print("fail")
 
